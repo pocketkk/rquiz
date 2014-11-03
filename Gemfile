@@ -33,7 +33,7 @@ gem 'spring',        group: :development
 gem 'unicorn'
 
 # Heroku Tools Gem
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
